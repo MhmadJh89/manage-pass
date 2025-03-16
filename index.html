@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8"/>
+	  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	  <title>Password Manager</title>
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/all.min.css">
+  </head>
+  <body>
+      <div class="container">
+          <header>
+              <div class="title">
+                  <h1>Password Manager</h1>
+              </div>
+              <div class="search-cont">
+                  <div class="icon">
+                      <i class="fas fa-search" style="color: #857b76; position: absolute; margin: -8px;"></i>
+                  </div>
+              
+                  <div>
+                      <input id="search" class="search" type="text" placeholder="Search">
+                  </div>
+                  <div>
+                      <input class="button" type="button" value="Add">
+                  </div>
+              </div>
+          </header>
+          <form class="t-add hide" id="form">
+              <div class="t-head">
+                  <p>App/Site</p>
+                  <p>Email</p>
+                  <p>Password</p>
+                  <p>Username</p>
+                  <p>Action</p>
+              </div>
+              <div class="t-body">
+                  <p><input type="text" id="title" name="title"></p>
+                  <p><input type="email" id="email" name="email"></p>
+                  <p><input type="password" id="password" name="password">
+                    <i class="fa fa-eye-slash" id="eyePass"></i>
+                  </p>
+                  <p><input type="text" id="username" name="username"></p>
+                  <p>
+                      <button class="add">Done</button>
+                  </p>
+              </div>
+           </form>
+           <main class="panel">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>App/Site</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Username</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+           </main>
+      </div>
+       <footer class="main-footer">
+           <strong>Copyright &copy; 2025 <a href="https://wa.me/+963953827205?text=hello">MhmadJH</a>.</strong>
+    All rights reserved.
+           <div class="social-icons">
+               <a class="whatsapp" href="https://wa.me/+963953827205?text=hello"><i class="fab fa-lg fa-whatsapp"></i></a>
+               <a class="facebook" href="https://www.facebook.com/profile.php?id=61562655154966"><i class="fab fa-lg ml-1 fa-facebook"></i></a>
+               <a class="instagram" href="https://www.instagram.com/mhmadjh19/"><i class="fab fa-lg ml-1 fa-instagram"></i></a>
+           </div>
+       </footer>
+      <script src="main.js"></script>
+  </body>
+</html>
+
