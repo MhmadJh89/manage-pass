@@ -84,7 +84,6 @@ body {
     color: var(--main-color);
     background-color: #171412;
     border-radius: 35px 35px 35px 35px;
-    justify-content: center;
 }
 .t-add p {
     padding: 10px;
